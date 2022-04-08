@@ -445,6 +445,14 @@ html {
   margin-bottom: 1.5rem;
   text-transform: uppercase;
 }
+.Footer .itens .item h3:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  margin-top: 0.3rem;
+  background-color: #e7434e;
+}
 .Footer .itens .item p {
   margin-bottom: 1rem;
 }

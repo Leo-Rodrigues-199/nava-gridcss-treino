@@ -389,6 +389,14 @@ $colorBgFooter: #404040;
         font-weight: 500;
         margin-bottom: 1.5rem;
         text-transform: uppercase;
+        &:after {
+          content: "";
+          display: block;
+          height: 2px;
+          width: 20px;
+          margin-top: 0.3rem;
+          background-color: $colorBtn;
+        }
       }
       p {
         margin-bottom: 1rem;
