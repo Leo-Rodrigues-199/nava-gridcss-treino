@@ -86,7 +86,7 @@ html {
 }
 .Intro .wrapper .text p {
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: 300;
 }
 @media (max-width: 768px) {
   .Intro .wrapper .text p {
@@ -299,7 +299,7 @@ html {
 }
 .HaveBoats .wrapper p {
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: 300;
 }
 @media (max-width: 768px) {
   .HaveBoats .wrapper p {

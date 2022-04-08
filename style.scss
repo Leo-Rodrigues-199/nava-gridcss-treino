@@ -131,7 +131,7 @@ $colorBgFooter: #404040;
   }
   p {
     font-size: 2rem;
-    font-weight: normal;
+    font-weight: 300;
     @include medium() {
       font-size: 1rem;
     }
