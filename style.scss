@@ -249,7 +249,7 @@ $colorBgFooter: #404040;
       border-radius: 5px;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 30px;
+      row-gap: 30px;
       justify-content: center;
       text-align: center;
       background: white;
@@ -269,6 +269,11 @@ $colorBgFooter: #404040;
         }
         &:not(:last-child) {
           border-right: 1px solid #b5b5b5;
+        }
+        @include medium() {
+          &:nth-child(2n) {
+            border: none;
+          }
         }
       }
     }

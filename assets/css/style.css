@@ -150,7 +150,7 @@ html {
   border-radius: 5px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  row-gap: 30px;
   justify-content: center;
   text-align: center;
   background: white;
@@ -172,6 +172,11 @@ html {
 }
 .Info .wrapper .lists .list:not(:last-child) {
   border-right: 1px solid #b5b5b5;
+}
+@media (max-width: 768px) {
+  .Info .wrapper .lists .list:nth-child(2n) {
+    border: none;
+  }
 }
 
 .Destinations {
