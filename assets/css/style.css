@@ -195,6 +195,7 @@ html {
 }
 .Destinations .wrapper .text p {
   margin-top: 1rem;
+  font-size: 1.2rem;
 }
 .Destinations .wrapper .lists {
   grid-template-columns: 1fr 1fr 1fr;
@@ -342,6 +343,7 @@ html {
 }
 .Featureds .wrapper .text p {
   margin-top: 1rem;
+  font-size: 1.2rem;
 }
 .Featureds .wrapper .content .lists {
   grid-template-columns: 1fr 1fr;
