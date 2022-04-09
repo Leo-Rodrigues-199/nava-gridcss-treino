@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
@@ -63,19 +64,19 @@
           <div class="wrapper">
             <ul class="lists">
               <li class="list">
-                <h3>2,300</h3>
+                <h3 data-value>2,300</h3>
                 <p>Destinos</p>
               </li>
               <li class="list">
-                <h3>1,000</h3>
+                <h3 data-value>1,000</h3>
                 <p>Cidades</p>
               </li>
               <li class="list">
-                <h3>35,000</h3>
+                <h3 data-value>35,000</h3>
                 <p>Barcos</p>
               </li>
               <li class="list">
-                <h3>50,000</h3>
+                <h3 data-value>50,000</h3>
                 <p>Marinheiros</p>
               </li>
             </ul>
@@ -333,5 +334,13 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    </script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
