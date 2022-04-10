@@ -233,7 +233,7 @@ $colorBgFooter: #404040;
   }
 }
 .Intro {
-  @include imageBG("../../assets/imgs/section/intro.png", 80vh);
+  @include imageBG("../../assets/imgs/section/intro.jpg", 80vh);
   .wrapper {
     .text {
       @include textBG();
@@ -317,7 +317,7 @@ $colorBgFooter: #404040;
 
 .HaveBoats {
   @include section();
-  @include imageBG("../../assets/imgs/section/img-section.png", 50vh);
+  @include imageBG("../../assets/imgs/section/img-section.jpg", 50vh);
   .wrapper {
     @include textBG();
     a {
