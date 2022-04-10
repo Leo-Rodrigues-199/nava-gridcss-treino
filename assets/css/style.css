@@ -222,6 +222,7 @@ html {
   min-height: 180px;
   border-radius: 5px;
   transition: 0.3s;
+  cursor: pointer;
 }
 .Destinations .wrapper .lists .list .hightlight {
   padding: 0.6rem;
@@ -365,6 +366,7 @@ html {
   min-height: 180px;
   border-radius: 5px;
   transition: 0.3s;
+  cursor: pointer;
 }
 .Featureds .wrapper .content .lists .list .hightlight {
   padding: 0.6rem;
